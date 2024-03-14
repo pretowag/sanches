@@ -1,0 +1,46 @@
+body{
+background-color: var(--cor-de-fundo);
+
+}
+
+:root{
+--cor-de-fundo: #abbbc5;
+--cor-de-texto: black;
+--cor-do-cabeçalho: white;
+--cinza: #abbbc5;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    background-color: var(--cor-do-cabeçalho);
+    border: 2px solid var(--cor-de-texto);
+
+}
+
+img{
+    width: 8%;
+}
+
+.imagem{
+    width: 20%;
+
+}
+
+.imagem-1{
+    width: 20%;
+}
+
+.imagem-2{
+    width: 20%;
+}
+
+.apresentacao{
+    display: flex;
+    background-color: var(--cinza);
+    border: 2px solid var(--cor-de-texto);
+
+}
