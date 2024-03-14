@@ -4,9 +4,9 @@ background-color: var(--cor-de-fundo);
 }
 
 :root{
---cor-de-fundo: #abbbc5;
+--cor-de-fundo: #ffffff;
 --cor-de-texto: black;
---cor-do-cabeçalho: white;
+--cor-do-cabeçalho: rgb(128, 128, 128);
 --cinza: #abbbc5;
 }
 header{
